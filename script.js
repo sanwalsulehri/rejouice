@@ -21,9 +21,10 @@ function loader(){
     display: "block",
   })
   tl.to(".ss h4",{
-    duration: 1,
     stagger: 1,
-    opacity: 1
+    opacity: 1,
+    delay: -2,
+    duration: 0.5,
   })
   tl.to(".ss h4",{
     opacity: 0,
